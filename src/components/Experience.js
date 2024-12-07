@@ -13,11 +13,11 @@ const Education = () => {
           <div className="mb-8 flex flex-col sm:flex-row items-center w-full">
             <div className="bg-gray-50 p-6 rounded-md shadow-lg w-full sm:w-5/12">
               <h3 className="font-bold text-lg">
-                G.L Bajaj Management of Institute (GLBIM)
+              Netaji Subhas University of Technology (NSUT)
               </h3>
-              <p className="text-sm text-gray-500">BCA | 2023 - 2026</p>
+              <p className="text-sm text-gray-500">B Tech | 2023 - 2027</p>
               <p className="text-gray-600 dark:text-gray-400 mt-2">
-                • Pursuing Bachelor's of Computer Application from GLBIM.
+                • Pursuing Bachelor's of Technology in Computer Science And Engineering.
               </p>
             </div>
 
@@ -30,10 +30,10 @@ const Education = () => {
            
 
             <div className="bg-gray-50 p-6 rounded-md shadow-lg w-full sm:w-5/12">
-              <h3 className="font-bold text-lg">Bloom Public School | CBSE</h3>
-              <p className="text-sm text-gray-500">Commerce | 2021 - 2023</p>
+              <h3 className="font-bold text-lg">Central Board of Secondary Education (CBSE)</h3>
+              <p className="text-sm text-gray-500">Science | 2021 - 2023</p>
               <p className="text-gray-600 dark:text-gray-400 mt-2">
-                • Class 10th: 8 CGPA <br />• Class 12th: 81 Percentage
+                • Class 10th: 91.2 % <br />• Class 12th: 81 %
               </p>
             </div>
           </div>

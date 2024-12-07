@@ -1,4 +1,4 @@
-import profile1 from "/Users/vipulkumar/Desktop/frontend/portfolio ✅/portfolio/src/photos/profile1.jpeg";
+import profile1 from "../photos/profile1.png";
 
 const data = {
   image: profile1,

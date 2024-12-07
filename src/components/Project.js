@@ -1,34 +1,32 @@
 import React from "react";
-import swiggy from "/Users/vipulkumar/Desktop/frontend/portfolio ✅/portfolio/src/photos/swiggy.jpeg";
-import youtube from "/Users/vipulkumar/Desktop/frontend/portfolio ✅/portfolio/src/photos/youtube.jpeg";
+import swiggy from "../photos/swiggy.jpeg";
 import { FaGithub } from "react-icons/fa"; // Importing GitHub icon from react-icons
-import wanderlust from "/Users/vipulkumar/Desktop/frontend/portfolio ✅/portfolio/src/photos/wanderlust2.jpeg";
 
 const projects = [
   {
-    title: "Swiggy",
+    title: "Online Food Ordering App",
     image: swiggy,
-    techStack: "React, ExpressJs, MongoDB",
-    githubLink: "https://github.com/vipul752/swiggy-app",
+    techStack: "React, ExpressJs, MySQL",
+    githubLink: "https://github.com/BharatKeCoders/Online_food_ordering_app",
   },
   {
-    title: "YouTube",
-    image: youtube,
-    techStack: "React, Redux",
-    githubLink: "https://github.com/vipul752/youtube-frontend",
+    title: "myntra-clone",
+    image: "https://repository-images.githubusercontent.com/540342974/fd1ce63c-54d6-4082-ad20-c1439973e7b1",
+    techStack: "React, Redux, NodeJs , FileSystem",
+    githubLink: "https://github.com/manojCodes77/myntra-clone",
   },
   {
     title: "Voting-App",
     image:
       "https://media.istockphoto.com/id/1257379398/vector/freedom-of-choice-concept-people-vote-pros-and-cons-online-voting-concept-electronic-voting.jpg?s=612x612&w=0&k=20&c=h1jIYSPpZVb2YlzrnGUS7x81AJgyLayiqlmv8-WPE90=",
     techStack: "ExpressJs, MongoDB",
-    githubLink: "https://github.com/vipul752/voting-app",
+    githubLink: "https://github.com/manojCodes77/voting-app",
   },
   {
-    title: "Wanderlust",
-    image: wanderlust,
-    techStack: "Ejs, NodeJs, MongoDB",
-    githubLink: "https://github.com/sachin97581/WandreLust",
+    title: "Amazon Clone",
+    image: "https://media.designrush.com/inspiration_images/136768/conversions/_1524503075_233_Amazon-Website-Design-Homepage-desktop.jpg",
+    techStack: "HTML, CSS, JavaScript",
+    githubLink: "https://github.com/manojCodes77/amazon-project?tab=readme-ov-file",
   },
 ];
 

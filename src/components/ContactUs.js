@@ -9,10 +9,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_4myfzwk", // Replace with your EmailJS Service ID
-        "template_1qpmm0l", // Replace with your EmailJS Template ID
+        process.env.REACT_APP_SERVICE_ID, // Replace with your EmailJS Service ID
+        process.env.REACT_APP_TEMPLATE_ID, // Replace with your EmailJS Template ID
         form.current,
-        "XI-XxpBG4HP29aRoa" // Replace with your EmailJS Public Key
+        process.env.REACT_APP_PUBLIC_KEY // Replace with your EmailJS Public Key
       )
       .then(
         (result) => {

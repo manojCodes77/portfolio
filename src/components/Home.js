@@ -42,7 +42,7 @@ const Home = () => {
         <div>
           <h1 className="text-xl sm:text-3xl mb-2 text-black">👋 Hey</h1>
           <h2 className="text-4xl sm:text-5xl font-bold mb-2 text-black">
-            I'm Vipul Kumar
+            I'm Manoj Singh Rawat
           </h2>
           <h3 className="text-xl sm:text-2xl md:text-2xl mb-6 mt-4 text-black">
             I am into{" "}
