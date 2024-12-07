@@ -38,7 +38,7 @@ const AboutUs = () => {
             <button
               onClick={() => {
                 window.open(
-                  "https://docs.google.com/document/d/1f8moDPG9RNU6zSwLk-wzSAqlbOewxbez/edit?usp=sharing&ouid=101089662908537599187&rtpof=true&sd=true"
+                  process.env.REACT_APP_RESUME_LINK
                 );
               }}
               className="mt-6 px-8 sm:px-10 py-3 bg-purple-600 text-white rounded-full hover:bg-purple-700 transition duration-300"
