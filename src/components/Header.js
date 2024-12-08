@@ -7,7 +7,7 @@ const Header = () => {
     <header className="bg-white  sticky top-0 z-50">
       <div className="flex justify-between items-center p-4">
         {/* Logo */}
-        <div className="text-2xl sm:text-4xl   font-bold ml-5">Vipul</div>
+        <div className="text-2xl sm:text-4xl   font-bold ml-5">Manoj</div>
 
         {/* Hamburger Menu for Small Screens */}
         <button
