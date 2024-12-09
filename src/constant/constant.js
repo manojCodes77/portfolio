@@ -1,7 +1,5 @@
-import profile1 from "../photos/profile1.png";
-
 const data = {
-  image: profile1,
+  image: "https://avatars.githubusercontent.com/u/147693594?v=4",
 };
 export { data };
 

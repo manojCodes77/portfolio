@@ -1,11 +1,10 @@
 import React from "react";
-import swiggy from "../photos/swiggy.jpeg";
 import { FaGithub } from "react-icons/fa"; // Importing GitHub icon from react-icons
 
 const projects = [
   {
     title: "Online Food Ordering App",
-    image: swiggy,
+    image: "https://user-images.githubusercontent.com/28086341/102119032-855d4280-3e66-11eb-8070-59a73b68a918.png",
     techStack: "React, ExpressJs, MySQL",
     githubLink: "https://github.com/BharatKeCoders/Online_food_ordering_app",
   },
