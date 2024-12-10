@@ -33,7 +33,7 @@ const Education = () => {
               <h3 className="font-bold text-lg">Central Board of Secondary Education (CBSE)</h3>
               <p className="text-sm text-gray-500">Science | 2021 - 2023</p>
               <p className="text-gray-600 dark:text-gray-400 mt-2">
-                • Class 10th: 91.2 % <br />• Class 12th: 81 %
+                • Class 10th: 91.2 % <br />• Class 12th: 92 %
               </p>
             </div>
           </div>
