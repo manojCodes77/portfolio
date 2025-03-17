@@ -68,6 +68,10 @@ const techStack :TechStackData = {
       icon:"https://dhruv-portfolio-mu.vercel.app/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fios-filled%2F144%2Fnull%2Fredux.png&w=256&q=75"
     },
     {
+      name:"NextJs",
+      icon:"https://res.cloudinary.com/ddp7jlsxb/image/upload/v1742211699/nextjs-uploads/esymsxllhavtlpc7swmt.png"
+    },
+    {
       name:"Tailwind CSS",
       icon:"data:image/png;base64,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"
     },
@@ -75,6 +79,10 @@ const techStack :TechStackData = {
       name:"Python",
       icon:"https://dhruv-portfolio-mu.vercel.app/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F144%2Fnull%2Fpython.png&w=256&q=75"
     },
+    {
+      name:"Django",
+      icon:"https://res.cloudinary.com/ddp7jlsxb/image/upload/v1742211819/nextjs-uploads/fyyoathilrs6vdfsmqib.png"
+    }
   ],
   Others: [
     {
