@@ -60,7 +60,7 @@ const techStack :TechStackData = {
     },
     {
       name :"Hono",
-      icon:"https://hono.dev/images/logo-small.png"
+      icon:"https://res.cloudinary.com/ddp7jlsxb/image/upload/v1742211068/nextjs-uploads/hp51bluxhg2glomiue6t.jpg"
     },
     
     {
