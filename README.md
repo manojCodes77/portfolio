@@ -1,74 +1,52 @@
-# 🌟 Advanced 3D Developer Portfolio
+# 🌟 Manoj Singh Rawat — Developer Portfolio
 
 **Live Demo**: [manojcodes77.me](https://www.manojcodes77.me/)
 
-A stunning, interactive portfolio featuring advanced **Three.js 3D graphics** with particle systems, custom shaders, and real-time animations. Built with modern web technologies for optimal performance and visual impact.
+A clean, professional, and fully responsive developer portfolio built with **React**, **TypeScript**, and **Tailwind CSS**. It showcases my experience, projects, tech stack, and education with a modern glass-morphism design on a dark theme, backed by a lightweight pure-CSS ambient background for a polished look without heavy dependencies.
 
 ## Table of Contents
 - [Core Features](#core-features)
-- [3D Graphics Features](#3d-graphics-features)
+- [Sections](#sections)
 - [Technology Architecture](#technology-architecture)
 - [Local Development Setup](#local-development-setup)
   - [Prerequisites](#prerequisites)
   - [Installation Guide](#installation-guide)
 - [Production Build](#production-build)
 - [Deployment Strategy](#deployment-strategy)
+- [Project Structure](#project-structure)
+- [Design Highlights](#design-highlights)
 - [Contribution Guidelines](#contribution-guidelines)
 - [Acknowledgements](#acknowledgements)
 
 ## Core Features
-- 🎨 **Advanced 3D Background**: Interactive Three.js scene with 5,000+ animated particles
+- 🎨 **Lightweight Ambient Background**: Pure-CSS glow orbs and a subtle grid — no WebGL, no heavy 3D libraries
 - 📱 **Fully Responsive**: Seamless experience across all devices and screen sizes
-- 🎯 **Interactive Mouse Tracking**: Particle system responds to cursor movement in real-time
-- 💼 **Project Showcase**: Beautiful cards with hover effects, live demos, and GitHub links
-- 📧 **Contact System**: Integrated emailJS for secure message forwarding
-- ⚡ **Performance Optimized**: Smooth 60 FPS animations with optimized rendering
-- 🔍 **SEO Ready**: Complete meta tags and schema markup for search visibility
-- 🎭 **Modern UI/UX**: Glass-morphism design with cyberpunk aesthetics
+- 💼 **Experience Timeline**: Professional internship experience presented as a clean vertical timeline
+- 🗂️ **Project Showcase**: Cards with hover overlays linking to live demos and GitHub repositories
+- 🧰 **Interactive Tech Stack**: Categorized, filterable technology grid
+- 🎓 **Education Timeline**: Academic journey with a consistent, elegant layout
+- 📧 **Contact System**: Integrated EmailJS for secure message forwarding
+- ⚡ **Fast & Optimized**: Small bundle, quick load times, smooth CSS transitions
+- 🔍 **SEO Ready**: Meta tags for search visibility
 
-## 3D Graphics Features
-
-### 🌌 Particle System
-- **5,000 animated particles** in a spiral galaxy formation
-- Real-time **mouse-responsive movement** with smooth interpolation
-- Additive blending for stunning glow effects
-- Continuous rotation and drift animations
-
-### 🎨 Custom Shaders
-- **GLSL shader-based** animated background plane
-- Dynamic color gradients (cyan, pink, purple)
-- Wave distortion effects
-- Real-time uniforms for time-based animations
-
-### 💫 3D Geometric Shapes
-- **Morphing 3D objects** (torus, sphere, octahedron)
-- Real-time mesh distortion using `MeshDistortMaterial`
-- Individual animation paths and rotation
-- Metallic materials with custom colors
-
-### ✨ Post-Processing Effects
-- **Bloom effect** for ethereal glow
-- Optimized for performance with selective luminance threshold
-- Enhanced visual depth and atmosphere
-
-### 🎯 Floating Elements
-- 20+ randomly placed geometric shapes
-- Individual animation speeds and rotation
-- Transparent materials with emissive properties
-- Multiple geometric primitives (boxes, tetrahedrons, icosahedrons)
+## Sections
+- **Hero** — Introduction, call-to-action buttons, and resume link
+- **Experience** — Full Stack Engineer Intern at Deepvue Technologies Pvt. Ltd.
+- **Projects** — BharatConnect (professional networking platform) and LEKHAK (blogging application)
+- **Skills** — Filterable tech stack across Web Development and Tools
+- **Education** — B.Tech (CSE) at NSUT, plus Class XII and Class X
+- **Contact** — EmailJS-powered contact form
 
 ## Technology Architecture
-| Layer              | Technologies Used                                    |
-|--------------------|-----------------------------------------------------|
-| **Framework**      | React 18, TypeScript 5.0                            |
-| **3D Graphics**    | Three.js 0.160, React Three Fiber 8.15              |
-| **3D Utilities**   | @react-three/drei 9.92, @react-three/postprocessing 2.16 |
-| **Styling**        | Tailwind CSS 3.4, PostCSS                           |
-| **Build Tool**     | Vite 5.4                                            |
-| **Icons**          | Lucide React, React Icons                           |
-| **Email Service**  | EmailJS                                             |
-| **Deployment**     | Vercel Platform                                      |
-| **Linting**        | ESLint 9.9                                          |
+| Layer              | Technologies Used                        |
+|--------------------|------------------------------------------|
+| **Framework**      | React 18, TypeScript 5.5                 |
+| **Styling**        | Tailwind CSS 3.4, PostCSS                |
+| **Build Tool**     | Vite 5.4                                 |
+| **Icons**          | Lucide React, React Icons                |
+| **Email Service**  | EmailJS                                  |
+| **Deployment**     | Vercel Platform                          |
+| **Linting**        | ESLint 9.9                               |
 
 ## Local Development Setup
 
@@ -93,7 +71,7 @@ A stunning, interactive portfolio featuring advanced **Three.js 3D graphics** wi
    ```bash
    cp .env.example .env
    ```
-   Then, update the `VITE_SERVICE_ID`, `VITE_TEMPLATE_ID`, `VITE_PUBLIC_KEY` and `VITE_RESUME_LINK` in the `.env` file with your EmailJS credentials.
+   Then update `VITE_SERVICE_ID`, `VITE_TEMPLATE_ID`, `VITE_PUBLIC_KEY`, `VITE_RESUME_LINK`, and `VITE_AVATAR` in the `.env` file with your own values.
 
 4. Start development server:
    ```bash
@@ -117,6 +95,34 @@ npm run build
 3. The build process is triggered based on the `vercel.json` configuration.
 4. Optimized assets are then deployed to Vercel's global CDN.
 
+## Project Structure
+```
+portfolio/
+├── src/
+│   ├── components/
+│   │   ├── AmbientBackground.tsx   # Pure-CSS ambient background (glow orbs + grid)
+│   │   ├── Header.tsx              # Fixed navigation bar
+│   │   ├── Hero.tsx                # Hero / intro section
+│   │   ├── Experience.tsx          # Work experience timeline
+│   │   ├── Projects.tsx            # Projects showcase
+│   │   ├── Skills.tsx              # Filterable tech stack
+│   │   ├── Education.tsx           # Education timeline
+│   │   ├── Contact.tsx             # EmailJS contact form
+│   │   └── Footer.tsx              # Footer with social links
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+├── package.json
+└── vite.config.ts
+```
+
+## Design Highlights
+- **Glass-morphism UI** with backdrop blur effects
+- **Cyan / blue accent palette** on a deep navy gradient background
+- **Subtle CSS ambiance** — soft glow orbs and a faint grid, no canvas or WebGL
+- **Smooth hover & scale transitions** throughout the interface
+- **Dark theme** optimized for visual comfort
+
 ## Contribution Guidelines
 1. Fork the repository and create a new feature branch from `main`.
 2. Install dependencies:
@@ -130,54 +136,14 @@ npm run build
 4. Commit your changes with clear and descriptive messages.
 5. Open a Pull Request to the `main` branch with a detailed description of your changes.
 
-## 🎨 Design Highlights
-- **Glass-morphism UI** with backdrop blur effects
-- **Cyberpunk color scheme** (cyan, purple, pink accents)
-- **Neon glow effects** on interactive elements
-- **Smooth transitions** throughout the interface
-- **Dark theme** optimized for visual comfort
-
-## 🚀 Performance
-- Consistent **60 FPS** animations
-- Optimized particle rendering with frustum culling
-- Efficient re-renders using React Three Fiber
-- Lazy loading for 3D components
-- Device pixel ratio optimization
-
-## 📁 Project Structure
-```
-portfolio/
-├── src/
-│   ├── components/
-│   │   ├── ThreeBackground.tsx    # Main 3D canvas wrapper
-│   │   ├── Scene3D.tsx            # 3D scene setup & particles
-│   │   ├── AnimatedGeometry.tsx   # Morphing 3D shapes
-│   │   ├── FloatingShapes.tsx     # Random floating objects
-│   │   ├── ShaderPlane.tsx        # Custom GLSL shader background
-│   │   ├── Hero.tsx               # Hero section component
-│   │   ├── Projects.tsx           # Projects showcase
-│   │   ├── Skills.tsx             # Tech stack display
-│   │   └── ...
-│   ├── App.tsx
-│   └── main.tsx
-├── package.json
-└── vite.config.ts
-```
-
-## 🎮 Interactive Features
-- **Mouse-responsive particles**: Move your cursor to see the galaxy shift
-- **Hover animations**: Interactive cards and buttons with scale effects
-- **Smooth scrolling**: Optimized navigation experience
-- **Dynamic lighting**: Multiple colored point lights in 3D space
-
 ## Acknowledgements
 This project was built using several fantastic open-source tools and libraries. Special thanks to the creators and maintainers of:
 - [Vite](https://vitejs.dev) - Next Generation Frontend Tooling
-- [React Three Fiber](https://docs.pmnd.rs/react-three-fiber) - React renderer for Three.js
-- [Three.js](https://threejs.org) - JavaScript 3D Library
+- [React](https://react.dev) - The library for web and native user interfaces
 - [Tailwind CSS](https://tailwindcss.com) - Utility-first CSS Framework
 - [EmailJS](https://www.emailjs.com) - Email Service Integration
 - [Lucide React](https://lucide.dev) - Beautiful & consistent icons
+- [React Icons](https://react-icons.github.io/react-icons/) - Popular icon packs as React components
 
 ---
 
