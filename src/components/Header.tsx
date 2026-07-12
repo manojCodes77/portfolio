@@ -10,9 +10,11 @@ export function Header() {
           </a>
           
           <nav className="hidden md:flex space-x-8">
-            <a href="#" className="text-gray-200 hover:text-cyan-400 transition-colors">About</a>
+            <a href="#home" className="text-gray-200 hover:text-cyan-400 transition-colors">Home</a>
+            <a href="#experience" className="text-gray-200 hover:text-cyan-400 transition-colors">Experience</a>
             <a href="#projects" className="text-gray-200 hover:text-cyan-400 transition-colors">Projects</a>
             <a href="#skills" className="text-gray-200 hover:text-cyan-400 transition-colors">Skills</a>
+            <a href="#education" className="text-gray-200 hover:text-cyan-400 transition-colors">Education</a>
             <a href="#contact" className="text-gray-200 hover:text-cyan-400 transition-colors">Contact</a>
           </nav>
 

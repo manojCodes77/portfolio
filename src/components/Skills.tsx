@@ -56,7 +56,7 @@ const techStack :TechStackData = {
     },
     {
       name:"Prisma",
-      icon:"https://www.prisma.io/images/favicon-32x32.png"
+      icon:"https://res.cloudinary.com/ddp7jlsxb/image/upload/v1783851256/prisma_ap8prx.png"
     },
     {
       name :"Hono",
@@ -65,7 +65,7 @@ const techStack :TechStackData = {
     
     {
       name:"Redux",
-      icon:"https://dhruv-portfolio-mu.vercel.app/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fios-filled%2F144%2Fnull%2Fredux.png&w=256&q=75"
+      icon:"https://res.cloudinary.com/ddp7jlsxb/image/upload/v1783851325/redux_yrtqfx.jpg"
     },
     {
       name:"NextJs",
