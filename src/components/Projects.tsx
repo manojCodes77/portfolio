@@ -2,6 +2,15 @@ import { FaGithub } from 'react-icons/fa';
 import { GrDeploy } from "react-icons/gr";
 const projects = [
   {
+    title: 'Pramaan — AI Document Verification Service',
+    description:
+      'Built an async ID-document verification service using FastAPI, SQLAlchemy, PostgreSQL, Redis, and RQ workers.Integrated Google Gemini Vision LLM for structured field extraction with provider-agnostic JSON parsing and repair.Implemented deterministic trust checks including PAN validation, Aadhaar Verhoeff checksum, and fuzzy name matching.Achieved 100% decision accuracy across 22 synthetic documents with transparent confidence scoring.Containerized with Docker Compose and deployed on AWS EC2, RDS, and S3 behind Nginx with TLS.',
+    image: 'https://res.cloudinary.com/ddp7jlsxb/image/upload/v1786626482/Screenshot_2026-08-13_183628_omvu5m.png',
+    tags: ['Python', 'FastAPI', 'PostgreSQL', 'Redis', 'SQLAlchemy', 'Gemini API', 'Docker', 'AWS', 'React'],
+    github: 'https://github.com/manojCodes77/Pramaan',
+    demo: 'https://pramaan.tech'
+  },
+  {
     title: 'BharatConnect — Professional Networking Platform',
     description:
       'A LinkedIn-inspired professional networking platform powered by 20+ REST APIs. Supports image & video uploads via Cloudinary (up to 5 media per post), a secure TypeScript backend with JWT auth, bcryptjs, and role-based access control, and a responsive Redux Toolkit frontend with real-time likes, comments, and shares.',
@@ -14,7 +23,7 @@ const projects = [
     title: 'LEKHAK — Online Blogging Application',
     description:
       'A full-stack blogging platform where authenticated users create, read, update, and delete posts. High-performance REST APIs on Hono.js + Cloudflare Workers handle 50+ concurrent requests against PostgreSQL via Prisma ORM, with Prisma Accelerate and Resend powering email verification and notifications.',
-    image: 'https://miro.medium.com/v2/resize:fit:1400/1*chp04IYdcgjttZWyseXOqQ.png',
+    image: 'https://res.cloudinary.com/ddp7jlsxb/image/upload/v1786628562/lekhak_bwyq0p.png',
     tags: ['Hono.js', 'Cloudflare Workers', 'PostgreSQL', 'Prisma', 'React', 'Tailwind', 'Resend'],
     github: 'https://github.com/manojCodes77/Online-Blogging-Application',
     demo: 'https://online-blogging-application.vercel.app/'
@@ -52,7 +61,7 @@ export const Projects = () => {
                 >
                   <FaGithub />
                 </a>
-                <a 
+                <a
                   href={project.demo}
                   target="_blank"
                   rel="noopener noreferrer"
